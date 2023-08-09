@@ -1,0 +1,36 @@
+.weather-main {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto 5px;
+    padding: 20px;
+    min-height: 550px;
+}
+.weather-body {
+    display: grid;
+    grid-template-columns: 100% 'repeat(2, 1fr)' 'repeat(2, 1fr)' '30% 27.5% 38%';
+    gap:30px;
+    grid-row: 1 / 2;
+
+}
+
+.weather-card {
+    overflow: hidden;
+    box-shadow: 0px 0px 30px 6px #e2e2e2 ;
+    border-radius: 30px;
+    height: 300px;
+}
+.weather-details {
+    color: #5e82f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.weather-info {
+    color: #5e82f4;
+    padding: 20px;
+    text-align: center;
+}
+.weather-info h3 {
+    font-size: 2.5rem;
+}

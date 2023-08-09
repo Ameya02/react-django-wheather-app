@@ -1,0 +1,40 @@
+.App{
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(212, 207, 200);
+  /* background: url("./assets/Images/BG3.webp"); */
+  background-size: cover;                      
+  background-repeat: no-repeat;
+  background-position: center center; 
+ 
+  
+}
+
+.navbar{
+  background-color: #d7defa;
+  min-height: 50px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  
+}
+
+.search {
+  width: 18em;
+  height: 2em;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.Location_btn {
+  background: #5e82f4;
+  border-radius: 20rem;
+  width: 10em;
+  height: 2em;
+  padding: auto;
+  
+}
+.Location_btn:hover {
+  background: #5e82f6;
+}
